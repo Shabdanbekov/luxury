@@ -1,0 +1,295 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #161627;
+}
+
+.navbar-brand {
+  color: #b78614;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.navbar-brand:hover {
+  color: #b78614;
+  transition: 0.6s;
+}
+
+.color-yellow {
+  color: #b78614;
+  margin-left: 10em;
+}
+h6 {
+  color: #f8faf8;
+  font-size: 10px;
+}
+
+.top_social {
+  display: flex;
+  margin: auto;
+  padding-left: 50px;
+  gap: 30px;
+}
+.social_btn_instagram {
+  width: 30px;
+  height: 30px;
+}
+.social_btn_whatsapp {
+  width: 30px;
+  height: 30px;
+}
+.dropdown-menu {
+  background-color: #161627;
+}
+.dropdown-item {
+  color: #b3e723;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+#myVideo {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video {
+  height: 500px;
+}
+.navbar1 {
+  width: 100%;
+  height: 60px auto;
+  background-color: rgb(22, 22, 39);
+}
+.nav-link:hover {
+  color: #effa1d;
+  transition: 0.6s;
+}
+.nav-link {
+  color: beige;
+}
+.navbar-toggler {
+  border: white !important;
+}
+.top_form {
+  border-radius: 5px;
+  position: absolute;
+  top: calc(70% - 200px);
+  right: 1%;
+  z-index: 10;
+  background: rgb(221, 241, 249);
+  border: none;
+  box-sizing: inherit;
+  display: block;
+  flex-wrap: wrap;
+}
+.top_form h4 {
+  text-align: center;
+}
+.navbar-toggler {
+  border: 1px white solid !important;
+}
+.navbar-toggler-icon {
+  background-image: url(./hamburger.png) !important;
+  width: 60px;
+  height: 40px;
+}
+.wrapper {
+  position: absolute;
+  width: 100%;
+  left: 5%;
+  top: 20%;
+}
+.wrapper p {
+  color: #fff;
+  font-size: 5vw;
+  font-weight: 800;
+}
+div .wrapper span {
+  color: #b78614;
+  font-size: 5vw;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.multiText {
+  font-weight: 800;
+  color: #97f118;
+}
+.objects {
+  background-color: #161627;
+  padding: 50px 0 50px 0;
+  display: grid;
+}
+.h2-title {
+  color: white;
+  text-align: center;
+}
+.container .container_text {
+  color: white;
+  text-align: center;
+}
+.presents__wh-logo {
+  border-radius: 5px;
+  background: #21db00;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 20px 70px 20px 10px;
+  color: white;
+}
+.presents__wh-logo:before {
+  content: "";
+  background-image: url(./Whatsapp-Logo-Transparent-File.png);
+  width: 95px;
+  background-repeat: no-repeat;
+  background-size: 90px;
+  height: 45px;
+  position: relative;
+  top: 15px;
+
+  display: inline-block;
+}
+.presents__wh-logo:visited {
+  color: white;
+}
+.h3__texts {
+  text-align: center;
+  color: white;
+  margin-top: 1.2em;
+  font-size: 3vw;
+}
+.card-body {
+  height: 124px;
+}
+.container_text.fon00 {
+  background: #161627;
+  max-width: 1200px;
+}
+.pluses {
+  padding: 0 50px 0;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.text__li {
+  color: white;
+  position: relative;
+  padding: 5px 0 5px 25px;
+  list-style: none;
+}
+.text__li:before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: rgba(195, 221, 247, 0.5);
+}
+.pluses_item {
+  position: relative;
+}
+.pluses_item:before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -17px;
+  width: 7px;
+  height: 120px;
+  background: #b78614;
+  box-sizing: inherit;
+}
+.icon_1 {
+  position: relative;
+  background-image: url(./light-bulb-5-64.png);
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: inherit;
+}
+
+.icon_2 {
+  position: relative;
+  background-image: url(./calendar-icon-png-537389.png);
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: inherit;
+}
+.icon_3 {
+  position: relative;
+  background-image: url(./pngegg.png);
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: inherit;
+}
+.icon_4 {
+  position: relative;
+  background-image: url(./house-logo.png);
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: inherit;
+}
+.h2-title {
+  font-size: 2.9em;
+  margin: 1.8em 0 1.5em;
+  color: #ffffff;
+}
+.advantage_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 0;
+  padding: 0 100px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.advantage_item .number {
+  position: absolute;
+  display: block;
+  width: 80px;
+  line-height: 114px;
+  font-size: 60px;
+  font-weight: 900;
+  color: #aec6dd;
+  top: calc(50% - 60px);
+  z-index: 10;
+  right: 365px;
+}
+
+.advantage_item {
+  position: relative;
+  width: 45%;
+  box-shadow: 0 0 30px 0 #311903;
+  padding: 30px 15px 30px 100px;
+  color: white;
+  margin-bottom: 15px;
+}
+.foot_items {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 25px;
+}
+li {
+  list-style-type: none;
+}
